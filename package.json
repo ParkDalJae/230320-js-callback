@@ -1,0 +1,19 @@
+{
+  "name": "230320-js-callback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParkDalJae/230320-js-callback.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ParkDalJae/230320-js-callback/issues"
+  },
+  "homepage": "https://github.com/ParkDalJae/230320-js-callback#readme"
+}
