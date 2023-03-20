@@ -3,6 +3,7 @@ import http from 'http';
 console.dir(http)
 const server = http.createServer(function(req,res){
     
+    let dataContent = "안녕하세요"
     let body = ""
     body += "<!DOCTYPE html>"
     body += "<html>"
@@ -11,12 +12,13 @@ const server = http.createServer(function(req,res){
     body += "</head>"
     body += "<body>"
     body += "<h1>Hello World</h1>"
+    body += `${dataContent}`
     body += "</body>"
     body += "</html>"
     
-    
-    
     res.statusCode  = 200;
-    res.setHeader('Content-Type','text/plain')
+    res.setHeader('Content-Type','text/html')
     res.end('hello world!')
+    
 });
+
