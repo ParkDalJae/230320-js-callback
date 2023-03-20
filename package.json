@@ -11,9 +11,11 @@
     "url": "git+https://github.com/ParkDalJae/230320-js-callback.git"
   },
   "author": "",
+  "type": "module",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ParkDalJae/230320-js-callback/issues"
   },
   "homepage": "https://github.com/ParkDalJae/230320-js-callback#readme"
+
 }
